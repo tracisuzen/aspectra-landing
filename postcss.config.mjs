@@ -1,10 +1,4 @@
-const nextConfig = {
-  experimental: {
-    optimizePackageImports: ["framer-motion", "@react-three/fiber", "@react-three/drei"],
-  },
-};
-
-module.exports = {
+export default {
   plugins: {
     "@tailwindcss/postcss": {},
   },
